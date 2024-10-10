@@ -1,1 +1,51 @@
-efefef
+body{
+    background-color: #D5E1EF;
+}
+@font-face {
+    font-family: 'Outfit' ;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+.main-container{
+    width: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
+    font-family: 'Outfit';
+}
+
+#image{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.first-text h2{
+    text-align: center;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.second-text-container{
+    text-align: center;
+    color: #818CA1;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: -4px;
+    
+}
+
+.texts{
+    position: relative;
+    top: -24px;
+}
